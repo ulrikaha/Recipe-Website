@@ -1,0 +1,198 @@
+        * {
+          margin:0;
+          padding:0;
+          box-sizing: border-box;
+        }
+
+        body {
+        background-color:rgb(244, 240, 240);
+        }
+       
+        .navbar-header {
+          display:flex;
+           justify-content:center;
+            background-color: darkslategray;
+            height: 70px;
+            width:100%;
+            line-height: 65px;
+              }
+
+            .pasta-lover #home{
+            display: flex; 
+            justify-content:center;
+            align-content: center;
+            text-decoration: none;
+            font-size:40px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #fff;
+            }
+
+        
+
+.container{
+  display:flex;
+  position: relative;
+  width:auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding:30px;
+  margin-top:8%;
+}
+
+.container .card{
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  width: 300px;
+  height: 400px;
+  background: #f0f0f0;
+  margin: 30px 10px;
+  padding:20px 15px;
+  box-shadow:0.5px 10px #e6e6e6;
+  transition:0.3s ease-in-out;
+  margin-top:5%;
+}
+
+.container .card .imgBx{
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+  box-shadow: 0 5px 20px rgb(0, 0, 0,1.2);
+}
+
+.container .card .imgBx img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.imgBx:hover img{
+  transform:scale(1.1);
+
+}
+
+         
+
+       .article {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          font-size: 19px;
+          margin: 110px;
+          margin-top:auto;
+          
+        }
+
+      .do {
+      height: fit-content;
+      width: fit-content;
+      box-shadow: 0 5px 20px rgb(0, 0, 0,1.2); 
+      display:flex;
+      flex-direction:column;
+      position:relative;
+      align-items:center;
+      justify-content:center; 
+      padding:20px;
+      margin: 110px;
+      
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+      
+       .chicken{
+        display: flex;
+      justify-content:flex-start;
+        margin: 50px;
+        width: 700px;
+        height:700px;
+      }
+
+      .recipe, .instructions{
+        font-size: 20px;
+        margin-top:10px;
+        margin:50px;
+        }
+
+        .name-dish{
+          font-size:25px;
+        }
+
+         footer{
+          background-color: darkslategray;
+          height: auto;
+          width:100vw;
+          font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          padding-top: 40px;
+          color:white;
+          }
+
+        .footer-content{
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .footer-content h3{
+          font-size: 1.8rem;
+          font-weight: 400;
+          text-transform:capitalize;
+          line-height: 3rem;
+        }
+
+        .footer-content p{
+          max-width: 500px;
+          margin: 10px auto;
+          line-height: 28px;
+          font-size: 14px;
+         }
+
+        .socials{
+         list-style:none; 
+         display:flex;
+         align-items:center;
+         justify-content:center;
+         margin: 1rem 0 3rem 0;
+        }
+
+        .socials li{
+          margin: 0 10px;
+         }
+
+         .socials a{
+          text-decoration: none;
+          color:white;
+         }
+
+         .socials a i{
+          font-size: 1.1rem;
+          transition: color .4s ease;
+         }
+
+  .socials a:hover i{
+    color: #D89234;
+}
+
+.footer-bottom{
+  background: darkslategray;
+  width:100vw;
+  padding: 20px 0;
+  text-align:center;
+}
+
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform:capitalize;
+}
+
+.footer.bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+
+@media all and (max-width: 700px) {
+      
+     }
