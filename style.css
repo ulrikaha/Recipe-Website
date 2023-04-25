@@ -68,6 +68,12 @@
   border-radius: 10px;
 }
 
+.container .card h2 {
+  position: relative;
+  z-index: 2;
+  margin-top: 16px;
+}
+
 .imgBx:hover img{
   transform:scale(1.1);
 
